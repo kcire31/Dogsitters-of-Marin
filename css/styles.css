@@ -59,8 +59,6 @@ html{
 .headerbg{
     background: #caf2f3;
     /* height: 100vh; AAA*/
-    padding-bottom: calc(7.5rem + (10 - 7.5) * ((100vw - 20rem)/ (100 - 20)));
-
 }
 
 
@@ -227,7 +225,7 @@ html{
     font-family: "Mosk Ultra-Bold 900";
     font-size: 500px;
     font-weight: 700;
-    line-height: 69.5px;
+    /* line-height: 69.5px; */
     color: rgb(64, 64, 64);
 }
 
@@ -238,6 +236,8 @@ html{
     font-weight: 700;
     line-height: 69.5px;
     color: rgb(64, 64, 64);
+    padding-bottom: calc(7.5rem + (10 - 7.5) * ((100vw - 20rem)/ (100 - 20)));
+
 }
 
 .presentation{
