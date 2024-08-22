@@ -226,7 +226,7 @@ html{
     font-family: "Mosk Ultra-Bold 900";
     font-size: 500px;
     font-weight: 700;
-    line-height: 69.5px;
+    /* line-height: 69.5px; */
     color: rgb(64, 64, 64);
 }
 
